@@ -2,14 +2,14 @@ name: ManshiBijalwan/public-web-angular
 
 on:
   push:
-    branches: [main]
+    branches: [main,master,our team]
   pull_request:
-    branches: [main]
+    branches: [main,master,our team]
 
 permissions: write-all
 
 env:
-  Branches: main
+  Branches: main,master,our team
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm ci
